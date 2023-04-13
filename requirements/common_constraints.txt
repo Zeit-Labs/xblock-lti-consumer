@@ -13,7 +13,7 @@
 
 
 # using LTS django version
-Django<4.0
+django<4.0
 
 # elasticsearch>=7.14.0 includes breaking changes in it which caused issues in discovery upgrade process.
 # elastic search changelog: https://www.elastic.co/guide/en/enterprise-search/master/release-notes-7.14.0.html
@@ -31,5 +31,3 @@ tox<4.0.0
 # For details, see issue https://github.com/openedx/edx-sphinx-theme/issues/197
 sphinx<6.0.0
 
-bleach<5.1
-charset-normalizer<3.0

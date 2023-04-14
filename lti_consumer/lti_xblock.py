@@ -471,7 +471,7 @@ class LtiConsumerXBlock(StudioEditableXBlockMixin, XBlock):
     launch_target = String(
         display_name=_("LTI Launch Target"),
         help=_(
-            "Select Inline if you want the LTI content to open in an IFrame in the current page. "
+            "Please Select Inline if you want the LTI content to open in an IFrame in the current page. "
             "Select Modal if you want the LTI content to open in a modal window in the current page. "
             "Select New Window if you want the LTI content to open in a new browser window. "
             "This setting is only used when Hide External Tool is set to False."

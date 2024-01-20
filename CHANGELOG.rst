@@ -16,10 +16,16 @@ Please See the `releases tab <https://github.com/openedx/xblock-lti-consumer/rel
 Unreleased
 ~~~~~~~~~~
 
+<<<<<<< Updated upstream
 Version 9.9.0 (2024-01-20)
 ---------------------------
 
 * XBlockI18NService js translations support
+=======
+* Remove Transifex calls and bundled translation files for the OEP-58 proposal.
+
+BREAKING CHANGE: This version breaks translations with Quince and earlier releases.
+>>>>>>> Stashed changes
 
 9.8.1 - 2023-11-17
 ------------------
